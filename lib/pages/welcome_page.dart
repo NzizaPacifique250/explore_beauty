@@ -39,7 +39,7 @@ class WelcomePage extends StatelessWidget {
                         padding: const EdgeInsets.all(16.0),
                         child: Text(
                           message[index],
-                          style: GoogleFonts.roboto(fontSize: 40),
+                          style: GoogleFonts.roboto(fontSize: 30),
                         ),
                       )),
                     ],
