@@ -25,21 +25,21 @@ class _SplashPageState extends State<SplashPage> {
                   'assets/images/logo.png',
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 6,
               ),
               AnimatedTextKit(animatedTexts: [
                 TyperAnimatedText('KIGALI PIZZA COMPANY',
                     textStyle: GoogleFonts.exo2(
                         fontSize: 25, fontWeight: FontWeight.bold),
-                    speed: Duration(milliseconds: 290))
+                    speed: const Duration(milliseconds: 290))
               ])
             ],
           ),
           splashTransition: SplashTransition.scaleTransition,
           pageTransitionType: PageTransitionType.leftToRightWithFade,
           duration: 5000,
-          animationDuration: Duration(seconds: 1),
+          animationDuration: const Duration(seconds: 1),
           nextScreen: WelcomePage()),
     );
   }
