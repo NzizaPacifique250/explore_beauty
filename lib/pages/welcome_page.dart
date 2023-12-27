@@ -1,9 +1,9 @@
 // ignore_for_file: sort_child_properties_last
 
 import 'package:explore_beauty/pages/homepage.dart';
+import 'package:explore_beauty/pages/startpage.dart';
 import 'package:explore_beauty/utils/common_widget/big_title.dart';
 import 'package:explore_beauty/utils/common_widget/circled_button.dart';
-import 'package:explore_beauty/utils/common_widget/rounded_button.dart';
 import 'package:explore_beauty/utils/common_widget/small_text.dart';
 import 'package:explore_beauty/utils/constants/constant.dart';
 import 'package:flutter/cupertino.dart';
@@ -148,7 +148,7 @@ class _WelcomePageState extends State<WelcomePage> {
                                                     context,
                                                     MaterialPageRoute(
                                                         builder: (context) =>
-                                                            const HomePage()));
+                                                            HomePage()));
                                               },
                                               type: CircledButtonType.bgPrimary,
                                             )
